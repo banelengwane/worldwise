@@ -5,7 +5,7 @@ const BASE_URL = 'http://localhost:8000'
 const CitiesContext = createContext()
 
 function CitiesProvider({children}){
-    const [cities, setCities] = useState([]);
+  const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [currentCity, setCurrentCity] = useState({});
 
@@ -39,14 +39,18 @@ function CitiesProvider({children}){
   }
 
 
-  return <CitiesContext.Provider value={{
-    cities,
-    isLoading,
-    currentCity,
-    getCity,
-  }}>
+  return (
+    <CitiesContext.Provider 
+      value={{
+        cities,
+        isLoading,
+        currentCity,
+        getCity,
+      }}
+    >
     {children}
-  </CitiesContext.Provider>
+    </CitiesContext.Provider>
+  );
 }
 
 function useCities(){

@@ -24,7 +24,7 @@ function Map() {
 
     return (
         <div className={styles.mapContainer}>
-            {!geolocationPosition &&<Button type='position' onClick={getPosition}>
+            {!geolocationPosition && <Button type='position' onClick={getPosition}>
                 {isLoadingPosition ? "Loading..." : "Use your position"}
             </Button>}
             <MapContainer className={styles.map} center={mapPosition} zoom={6} scrollWheelZoom={true}>
@@ -32,11 +32,11 @@ function Map() {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
                 />
-                {cities.map(city => (
+                {cities.map((city) => (
                     <Marker position={[city.position.lat, city.position.lng]} key={city.id}>
                         <Popup>
                            <span>{city.emoji}</span> <span>{city.cityName}</span>
-                        </Popup>
+                        </Popup>city
                     </Marker>
                 ))}
                 <ChangeCenter position={mapPosition} />
@@ -55,7 +55,7 @@ function ChangeCenter({ position }) {
 function DetectClick(){
     const navigate = useNavigate()
     useMapEvents({
-        click: (e) => navigate(`form?lat=${e.latlng.lat}&lng${e.latlng.lng}`)
+        click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`)
     })
 }
 
