@@ -35,54 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
-    },
-    {
-      "id": "3a36",
-      "cityName": "Minglanilla",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-06-21T20:04:24.204Z",
-      "notes": "ds",
-      "position": {
-        "lat": "39.53793974517628",
-        "lng": "-1.6040039062500002"
-      }
-    },
-    {
-      "id": "b8d6",
-      "cityName": "Sainte-Croix-de-Mareuil",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-06-21T20:09:47.367Z",
-      "notes": "France is beautiful",
-      "position": {
-        "lat": "45.47554027158593",
-        "lng": "0.43945312500000006"
-      }
-    },
-    {
-      "id": "cd4c",
-      "cityName": "Perwez",
-      "country": "Belgium",
-      "emoji": "🇧🇪",
-      "date": "2024-06-21T20:19:40.339Z",
-      "notes": "Yebo",
-      "position": {
-        "lat": "50.62507306341437",
-        "lng": "4.768066406250001"
-      }
-    },
-    {
-      "id": "3c67",
-      "cityName": "Gemeente Gemert-Bakel",
-      "country": "Netherlands (Kingdom of the)",
-      "emoji": "🇳🇱",
-      "date": "2024-06-21T20:20:41.915Z",
-      "notes": "hollandi",
-      "position": {
-        "lat": "51.498484547170605",
-        "lng": "5.822753906250001"
-      }
     }
   ]
 }
