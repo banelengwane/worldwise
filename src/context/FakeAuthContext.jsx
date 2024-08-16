@@ -4,7 +4,7 @@ const AuthContext = createContext();
 
 const initialState = {
     user: null,
-    isAuthenticated: false
+    isAuthenticated: false,
 }
 
 function reducer(state, action){
@@ -14,6 +14,7 @@ function reducer(state, action){
         
         case 'logout':
             return {...state, user: null, isAuthenticated: false} 
+            
         default:
             throw new Error("Unknown action")
     }

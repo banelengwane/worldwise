@@ -14,9 +14,7 @@ import { CitiesProvider } from "./context/CitiesContext"
 import { AuthProvider } from "./context/FakeAuthContext"
 import ProtectedRoute from "./pages/ProtectedRoute"
 
-
 function App() {
-
   return (
     <AuthProvider>
       <CitiesProvider>
@@ -33,11 +31,11 @@ function App() {
                   <AppLayout />
                 </ProtectedRoute>
               }>
-              <Route index element={<Navigate replace to="cities" />} />
-              <Route path="cities" element={<CityList />}/>
-              <Route path="cities/:id" element={<City />} />
-              <Route path="countries" element={<CountriesList />} />
-              <Route path="form" element={<Form />} />
+                <Route index element={<Navigate replace to="cities" />} />
+                <Route path="cities" element={<CityList />}/>
+                <Route path="cities/:id" element={<City />} />
+                <Route path="countries" element={<CountriesList />} />
+                <Route path="form" element={<Form />} />
             </Route>
             <Route path="*" element={<PageNotFound />} />
           </Routes>

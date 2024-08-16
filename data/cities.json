@@ -35,30 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
-    },
-    {
-      "id": "0a5e",
-      "cityName": "Swartland",
-      "country": "South Africa",
-      "emoji": "🇿🇦",
-      "date": "2024-08-13T09:31:05.657Z",
-      "notes": "Another Island",
-      "position": {
-        "lat": "-33.42427807715396",
-        "lng": "18.08555603027344"
-      }
-    },
-    {
-      "id": "bb27",
-      "cityName": "Arguis",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-08-16T00:13:04.640Z",
-      "notes": "Yebo nkos",
-      "position": {
-        "lat": "42.32606244456202",
-        "lng": "-0.46142578125000006"
-      }
     }
   ]
 }
