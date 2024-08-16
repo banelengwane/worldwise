@@ -1,8 +1,8 @@
-# React + Vite
+# WorldWise App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- A pure traveling react (+vite) app, where a user can log in and keep tab of all their cities that they had travelled to.
+- A user can click on the map to add a city, the app can auto populate the city's name, and country based on the coordinates clicked
+- The selected city can be saved, together with the date of travelling and a comment can be added under each city as some sort of review.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
